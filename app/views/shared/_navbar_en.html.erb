@@ -1,0 +1,54 @@
+ <!--<              bg-primary" data-bs-theme="dark"> -->
+ <nav class="navbar navbar-expand-lg bg-primary " data-bs-theme="dark"> <!-- dark-->
+  <div class="container-fluid">
+   <!-- <a class="navbar-brand" href="#">Estrutecnia</a> -->
+ <a class="navbar-brand" href="/home/index">
+       <!-- <img src="/assets/images/logo.png" alt="Estrutecnia" width="3" height="2">  -->
+       <%= image_tag('bootstrap-logo.svg', class: "navbar-logo", alt: "Estrutecnia")  %>
+       <%= stylesheet_link_tag "logo" %>
+    </a> 
+
+
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto"> <!-- ms-auto makes home link dropdown to the very right-->
+        
+          <a class="nav-link active" aria-current="page" href="/home/about">About</a>
+        </li>
+                <!--<li class="nav-item">
+          <a class="nav-link" href="/home/index">English</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/home/indice">Expertise</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            More
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Construction</a></li>
+            <li><a class="dropdown-item" href="#">Consultacy</a></li>
+            <li><a class="dropdown-item" href="#">Sustainability</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Contact Us</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">EN</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/home/indice">ES</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+
+</nav>
