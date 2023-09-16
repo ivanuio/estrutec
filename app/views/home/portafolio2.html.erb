@@ -1,0 +1,68 @@
+<%= render 'shared/navbar_es' %>
+
+<div class="container">
+<br>
+	<h1>Portafolio</h1> 
+
+<p>
+	<%= @about_me %>
+</p>
+<h6> A continuación una muestra de nuestros proyectos representativos</h6>
+<head>
+	<link rel="stylesheet" href="style.css">
+</head>
+<!-- <div id="pins"> -->
+	<!--<div class="grid"> -->
+		<div class="container">
+    <div id="masonry-container" class="transitions-enabled infinite-scroll clearfix">
+
+
+        <div class="boxo col11">
+    Ensayos de Suelos para Edificaciones
+    <%= image_tag "spt.jpeg", width: 400  %>
+  </div>
+  <div class="box col12">
+        Diseños de Agua Potable y Alcantarillado<br/>
+        <%= image_tag "HIDROSANITARI.png", width: 400  %>
+      </div>
+        <div class="box col13">
+        Planos estructurales<br/>
+        <%= image_tag "estructurais.png", width: 400  %>
+      </div>
+        <div class="box col14">
+        Analisis estructurales de cisternas, cavas o diversas estructuras<br/>
+        <%= image_tag "cava1.png", width: 400  %>
+      </div>
+  <div class="box col15">
+        Analisis de Geoestructuras en 2D<br/>
+        <%= image_tag "plaxis2D.png", width: 400  %>
+      </div>
+	  <div class="box col16">
+        Modelos de Elementos Finitos en Geoestructuras en 3D<br/>
+        <%= image_tag "plaxis3D.png", width: 400  %>
+      </div>
+<div class="boxo col17">
+        Paginas Web<br/>
+        <%= link_to image_tag("pinterested.png"), "website"  %>
+      </div>
+          <div class="box col18">
+        Instalación de diversos programas</br>
+        <%= image_tag "Pagination · Bootstrap v5.3.png", width: 400  %>
+      </div>
+
+ 
+</div>
+  </div>
+</div>
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item"><a class="page-link" href="<%= home_portafolio_path %>">Previa</a></li>
+    <li class="page-item"><a class="page-link" href="<%= home_portafolio_path    %>">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">Siguiente</a></li>
+  </ul>
+</nav>
+</div>
+Contactos al +593 99 822 1378
+<p>
+</p>

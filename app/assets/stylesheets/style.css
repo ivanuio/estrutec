@@ -16,7 +16,7 @@
 }
 
 .box {
-	width: 250px;
+	width: 450px;
 	padding: 20px;
 	background-color: #f1f1f1;
 	border: 1px solid grey;
@@ -28,12 +28,36 @@
 }
 
 .box img {
-	width: 100%;
+	width: 200%;
 	height: 170px;
 	object-fit: contain;
 	border-radius: 15px;
 }
 .container .box img
+{
+	max-width: 100%;
+	border-radius: 30px;
+}
+
+.boxo {
+	width: 350px;
+	padding: 20px;
+	background-color: #f1f1f1;
+	border: 1px solid grey;
+	float: left;
+	margin: 10px;
+	margin-bottom: 10px;
+	break-inside: avoid;
+
+}
+
+.boxo img {
+	width: 200%;
+	height: 270px;
+	object-fit: contain;
+	border-radius: 15px;
+}
+.container .boxo img
 {
 	max-width: 100%;
 	border-radius: 30px;

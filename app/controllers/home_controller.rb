@@ -1,4 +1,5 @@
 class HomeController < ApplicationController
+  include Pagy::Backend
   def index
   end
 require 'date'

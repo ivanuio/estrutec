@@ -1,0 +1,16 @@
+<%= render 'shared/navbar_es' %>
+
+<div class="container">
+<br>
+	<h1>Website</h1>
+	<% if render='shared/navbar_es' %>
+	<p> También nos dedicamos al diseño web, he aquí una muestra de lo que podemos hacer </p>
+	<% else %>
+	<p> Put </p>
+	<% end %>
+	        <%= image_tag "pinterested.png", width: 800  %>
+<% if render='shared/navbar_es' %>
+	<p> <br> No olvides contactarnos, para obtener más información </p>
+	<% else %>
+	<p> Put </p>
+	<% end %>
