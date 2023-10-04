@@ -50,7 +50,8 @@ gem "bootsnap", require: false
 gem 'jquery-turbolinks'
 gem 'masonry-rails', '~> 0.2.4'
 gem 'will_paginate', '~> 4.0'
-gem 'pagy', '~> 6.0', '>= 6.0.4'
+#gem 'pagy', '~> 6.0', '>= 6.0.4'
+gem 'ransack', '~> 4.0'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -66,9 +67,10 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  gem 'letter_opener', '~> 1.8', '>= 1.8.1'
 end
 
-group :test do
+group :test do 
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"

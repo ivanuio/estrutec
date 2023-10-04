@@ -13,3 +13,4 @@ require masonry/box-maker
 require masonry/jquery.loremimages.min
 
 require isotope/jquery.isotope
+require autocomplete
