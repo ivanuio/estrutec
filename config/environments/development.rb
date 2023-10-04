@@ -79,8 +79,8 @@ config.action_mailer.perform_deliveries = true
  # address: 'smtp.gmail.com',
   #port: 587,
   #domain: 'example.com',
-  #user_name: 'ivanord@gmail.com',
-  #password: 'Macafee1984',
+  #user_name: '',
+  #password: '',
   #authentication: 'plain',
   #enable_starttls_auto: true
 #}
